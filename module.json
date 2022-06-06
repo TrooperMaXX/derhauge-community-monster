@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "hauge-community-monster",
+  "title": "DerHauge Community Monster",
+  "description": "Alle Monster, die im Rahmen des Monster-Kreativ-Workshop der HaugeCommunity erstellt wurden.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,9 +9,9 @@
   "compatibleCoreVersion": "9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "TrooperMaXX",
+      "url": "https://github.com/TrooperMaXX/",
+      "discord": "⛧TrooperMaXX⛧#1337"
     }
   ],
   "dependencies": [
@@ -34,6 +34,20 @@
       "lang": "en",
       "name": "English",
       "path": "languages/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "German",
+      "path": "languages/de.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "monster",
+      "label": "DerHauge Community Monster",
+      "path": "/packs/derhauge-community-monster.db",
+      "entity": "Actor",
+      "system": "dnd5e"
     }
   ],
   "url": "This is auto replaced",
@@ -44,7 +58,7 @@
   "media": [
     {
       "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "url": "https://cdn.discordapp.com/icons/454336351509282827/cd0f4b01df5e64b777664964ed57911e.webp?size=96"
     }
   ]
 }
